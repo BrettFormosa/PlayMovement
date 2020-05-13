@@ -1,9 +1,12 @@
+//"Simple code to move the player model, the Inputs are the default inputs in the Unity Engine"
+
 using UnityEngine;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
     public float speed;
+    //"Speed variable is changed via Unity Engine"
 
     private Rigidbody rb;
 
